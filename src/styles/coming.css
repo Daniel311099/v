@@ -1,0 +1,103 @@
+.coming-soon-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.coming-soon-header {
+    margin-bottom: 20px;
+}
+
+.coming-soon-header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.coming-soon-header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.countdown {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.time-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.time {
+    font-size: 2em;
+    color: #333;
+}
+
+.label {
+    font-size: 1em;
+    color: #666;
+}
+
+.subscribe-form {
+    margin-bottom: 20px;
+}
+
+.subscribe-form p {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.subscribe-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 1em;
+}
+
+.subscribe-form button {
+    padding: 10px 20px;
+    background-color: #125088;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.subscribe-form button:hover {
+    background-color: #0d3b72;
+}
+
+.coming-soon-footer {
+    margin-top: 20px;
+}
+
+.coming-soon-footer p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #125088;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.social-icons a:hover {
+    text-decoration: underline;
+}

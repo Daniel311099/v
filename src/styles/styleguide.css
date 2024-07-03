@@ -1,0 +1,21 @@
+:root {
+    --background: rgba(250, 245, 228, 1);
+    --bg-color-2: rgba(245, 246, 250, 1);
+    --heading-3-24-font-family: "Urbanist", Helvetica;
+    --heading-3-24-font-size: 24px;
+    --heading-3-24-font-style: normal;
+    --heading-3-24-font-weight: 500;
+    --heading-3-24-letter-spacing: 0.36px;
+    --heading-3-24-line-height: normal;
+    --paragraph-16-font-family: "Quicksand", Helvetica;
+    --paragraph-16-font-size: 16px;
+    --paragraph-16-font-style: normal;
+    --paragraph-16-font-weight: 500;
+    --paragraph-16-letter-spacing: 0.24px;
+    --paragraph-16-line-height: 139.9999976158142%;
+    --primary: rgba(18, 91, 80, 1);
+    --secondery: rgba(248, 180, 0, 1);
+    --tertiary: rgba(255, 99, 99, 1);
+    --text: rgba(52, 52, 52, 1);
+  }
+  

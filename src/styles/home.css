@@ -1,0 +1,508 @@
+/* about us */
+
+.about-us {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us__header {
+    margin-bottom: 20px;
+}
+
+.about-us__header h2 {
+    color: var(--text);
+    font-family: "Urbanist-SemiBold", Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    line-height: normal;
+}
+
+.about-us__content {
+    color: #000;
+    font-family: "Quicksand-Medium", Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.24px;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* partners */
+.partners-section {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.partners-title {
+    color: var(--text);
+    font-family: "Urbanist-SemiBold", Helvetica;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.partners-subtitle {
+    color: #000000;
+    font-family: "Quicksand-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.24px;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+.partners-button-container {
+    display: inline-flex;
+    align-items: center;
+    background-color: #125088;
+    border-radius: 5px;
+    padding: 20px 35px;
+    color: #faf5e4;
+    font-family: "Quicksand-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.partners-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    flex-wrap: wrap;
+}
+
+.partners-logo-container img {
+    height: 32px;
+    width: auto;
+}
+
+/* impact */
+/* Global Styles */
+.charity-landing-page {
+    background-color: #faf5e4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.primary-value, .primary-value-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.text-wrapper-22, .text-wrapper-18 {
+    color: white;
+    font-family: "Urbanist-SemiBold", Helvetica;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.advance-value {
+    background-color: #125088;
+    width: 100%;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.group-26 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.group-27 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1140px;
+}
+
+.impact-card {
+    background-color: var(--background);
+    border-radius: 10px;
+    box-shadow: 10px 18px 50px #0000001a;
+    width: 350px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.impact-card .title {
+    color: var(--primary);
+    font-family: var(--heading-3-24-font-family);
+    font-size: var(--heading-3-24-font-size);
+    font-style: var(--heading-3-24-font-style);
+    font-weight: var(--heading-3-24-font-weight);
+    letter-spacing: var(--heading-3-24-letter-spacing);
+    line-height: var(--heading-3-24-line-height);
+    margin-bottom: 10px;
+}
+
+.impact-card .description {
+    color: var(--text);
+    font-family: var(--paragraph-16-font-family);
+    font-size: var(--paragraph-16-font-size);
+    font-style: var(--paragraph-16-font-style);
+    font-weight: var(--paragraph-16-font-weight);
+    letter-spacing: var(--paragraph-16-letter-spacing);
+    line-height: var(--paragraph-16-line-height);
+    width: 80%;
+}
+
+.impact-icon {
+    background-color: var(--tertiary);
+    border-radius: 6px;
+    height: 55px;
+    width: 55px;
+    margin-bottom: 15px;
+}
+
+/* stats */
+/* Global Styles */
+/* styles/stats.css */
+.stats-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 0;
+    /* background-color: #125088; */
+}
+
+.stats-card {
+    background-color: #125088;
+    border-radius: 10px;
+    height: 172px;
+    width: 367px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats-card-value {
+    color: #faf5e4;
+    font-family: "Urbanist-SemiBold", Helvetica;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+
+.stats-card-title {
+    color: #faf5e4;
+    font-family: "Quicksand-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.24px;
+    line-height: 1.4;
+    max-width: 300px;
+}
+
+/* pricing */
+.pricing-section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .pricing-header {
+    margin-bottom: 30px;
+  }
+  
+  .pricing-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-toggle {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .toggle-button {
+    background: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .toggle-button.active {
+    background-color: #125088;
+    color: #fff;
+    border-color: #125088;
+  }
+  
+  .pricing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .pricing-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .pricing-card.highlighted {
+    border-color: #125088;
+    background-color: #faf5e4;
+  }
+  
+  .pricing-plan {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .pricing-amount {
+    font-size: 36px;
+    font-weight: 700;
+    color: #125088;
+    margin-bottom: 5px;
+  }
+  
+  .pricing-period {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .divider {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+  }
+  
+  .features-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .feature-item {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+/* review */
+
+.review {
+    position: relative;
+    padding: 50px;
+    background-color: #125088;
+    text-align: center;
+}
+
+.review-header {
+    margin-bottom: 30px;
+}
+
+.review-header h2 {
+    color: #fff;
+    font-family: "Urbanist-SemiBold", Helvetica;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.review-subtitle {
+    color: #fff;
+    font-family: "Quicksand-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.testimonial-card {
+    background-color: #faf5e4;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 10px 18px 50px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-content {
+    position: relative;
+}
+
+.testimonial-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.testimonial-header h3 {
+    font-family: "Urbanist-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.testimonial-header p {
+    font-family: "Quicksand-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    color: #555;
+}
+
+.testimonial-text {
+    font-family: "Quicksand-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.testimonial-date {
+    font-family: "Quicksand-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.testimonial-rating {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.star {
+    width: 22px;
+    height: 22px;
+}
+
+.navigation-arrows {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.arrow {
+    width: 50px;
+    height: 50px;
+}
+
+.testimonial-indicators {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.indicator {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+}
+
+.indicator.active {
+    background-color: #ffe600;
+}
+/* FAQ */
+.charity-landing-page .faq {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .charity-landing-page .faq-title {
+    text-align: center;
+    font-family: "Urbanist-SemiBold", Helvetica;
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 20px;
+  }
+  
+  .charity-landing-page .faq-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .charity-landing-page .faq-item {
+    background-color: #faf5e4;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .charity-landing-page .faq-item:hover {
+    background-color: #f0e8d9;
+  }
+  
+  .charity-landing-page .faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Urbanist-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--text);
+  }
+  
+  .charity-landing-page .faq-answer {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #dcdcdc;
+    font-family: "Quicksand-Medium", Helvetica;
+    font-size: 16px;
+    color: var(--text);
+    /* background: var(--Primary, #125B50); */
+    /* opacity: 0.04; */
+  }
+  
+  .charity-landing-page .faq-arrow {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .charity-landing-page .faq-arrow[alt="Arrow up"] {
+    transform: rotate(180deg);
+  }
+  

@@ -1,0 +1,208 @@
+/* .charity-landing-page .hero {
+    background-color: #faf5e4;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+}
+
+.charity-landing-page .join-us-in-making-a {
+    color: #191919;
+    font-family: "Urbanist-SemiBold", Helvetica;
+    font-size: 48px;
+    font-weight: 600;
+    left: 136px;
+    letter-spacing: 0;
+    line-height: 62.4px;
+    position: absolute;
+    top: 259px;
+    width: 593px;
+}
+
+.charity-landing-page .text-wrapper-31 {
+    color: #343434;
+    font-family: "Quicksand-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    left: 127px;
+    letter-spacing: 0.4px;
+    line-height: 30.2px;
+    position: absolute;
+    top: 412px;
+    width: 523px;
+}
+
+.charity-landing-page .frame-4 {
+    align-items: center;
+    display: inline-flex;
+    gap: 38px;
+    left: 127px;
+    position: absolute;
+    top: 583px;
+}
+
+.charity-landing-page .frame-5 {
+    align-items: center;
+    background-color: #125088;
+    border-radius: 5px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px 35px;
+    position: relative;
+}
+
+.charity-landing-page .text-wrapper-32 {
+    color: #faf5e4;
+    font-family: "Quicksand-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+
+.charity-landing-page .button-2 {
+    all: unset;
+    box-sizing: border-box;
+    height: 20px;
+    margin-right: -2px;
+    position: relative;
+    width: 89px;
+}
+
+.charity-landing-page .text-wrapper-33 {
+    color: #000000;
+    font-family: "Quicksand-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-decoration: underline;
+    top: 0;
+}
+
+.charity-landing-page .ellipse-8 {
+    background-color: #d9d9d9;
+    border-radius: 150px/120px;
+    height: 240px;
+    left: 934px;
+    position: absolute;
+    top: 327px;
+    width: 300px;
+} */
+.hero {
+    background-color: #faf5e4;
+    display: flex;
+    flex-direction: row; /* Change from column to row */
+    justify-content: space-between; /* Ensure spacing between text and image */
+    align-items: center; /* Center items vertically */
+    /* height: 70vh; */
+    width: 100%;
+    padding: 0 10%; /* Adjust padding for proper alignment */
+    position: relative;
+    margin-top: 58px;
+}
+
+.hero ::before {
+    background-color: #faf5e4;
+
+}
+
+
+.hero .heading {
+    color: #191919;
+    font-family: "Urbanist-SemiBold", Helvetica;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62.4px;
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.hero .subheading {
+    color: #343434;
+    font-family: "Quicksand-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    line-height: 30.2px;
+    margin-bottom: 40px;
+    text-align: left;
+    width: 100%;
+}
+
+.hero .buttons {
+    display: flex;
+    gap: 38px;
+    justify-content: flex-start;
+}
+
+.hero .primary-button, .hero .secondary-button {
+    align-items: center;
+    border-radius: 5px;
+    display: inline-flex;
+    justify-content: center;
+    padding: 20px 35px;
+    font-family: "Quicksand-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hero .primary-button {
+    background-color: #125088;
+    color: #faf5e4;
+}
+
+.hero .secondary-button {
+    background-color: transparent;
+    color: #000000;
+    text-decoration: underline;
+    padding: 20px;
+}
+
+.hero .hero-image-container {
+    display: flex;
+    justify-content: flex-end; /* Align image to the right */
+    align-items: center; /* Center image vertically */
+    flex: 1; /* Allow image container to take remaining space */
+}
+
+.hero .hero-image {
+    max-width: 500px;
+    height: auto;
+    border-radius: 5%; /* Optional: Adds rounded corners to the image */
+}
+
+.home-hero .ellipse-8 {
+    background-color: #d9d9d9;
+    border-radius: 150px / 120px;
+    height: 240px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.home-hero .rectangle-7,
+.home-hero .rectangle-8 {
+    background: linear-gradient(180deg, rgba(250, 245, 228, 0) 0%, rgba(248, 180, 0, 0.21) 100%);
+    border-radius: 0px 0px 30px 29px;
+    height: 500px;
+    width: 431px;
+    position: absolute;
+    top: 0;
+    left: 70%;
+    transform: translateX(-50%);
+}

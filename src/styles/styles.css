@@ -1,0 +1,66 @@
+
+.charity-landing-page .overlap-4 {
+    height: 3508px;
+    left: -232px;
+    position: absolute;
+    top: 1503px;
+    width: 1838px;
+}
+
+
+.charity-landing-page .overlap-23 {
+    height: 806px;
+    position: relative;
+}
+
+.charity-landing-page .rectangle-6 {
+    background-color: var(--background);
+    height: 806px;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+}
+
+.charity-landing-page .ellipse-6 {
+    background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgba(250, 92, 134, 0.2) 0%,
+        rgba(250, 92, 134, 0) 100%
+    );
+    border-radius: 360px;
+    height: 720px;
+    left: 397px;
+    position: absolute;
+    top: 53px;
+    width: 720px;
+}
+
+.charity-landing-page .text-wrapper-34 {
+    color: #ffffff;
+    font-family: "Quicksand-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 147px;
+    letter-spacing: 0.24px;
+    line-height: 32px;
+    position: absolute;
+    top: 6514px;
+    width: 356px;
+}
+
+.charity-landing-page .at-charity-name-our {
+    color: #000000;
+    font-family: "Quicksand-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 240px;
+    letter-spacing: 0.24px;
+    line-height: 32px;
+    position: absolute;
+    text-align: center;
+    top: 954px;
+    width: 959px;
+}
+
